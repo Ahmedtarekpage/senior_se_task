@@ -1,6 +1,12 @@
+# Software Engineer : Ahmed Tarek Morsy
+# Mail : Ahmedtprofile@gmail.com
+# Task For : Y42 Company
+# Date Created : 15 / 10 / 2022
+# collaborator : oltjona dyrmishi
+
 import pytest
-from stack_class import Stack
 from exceptions import Empty_Exception, Null_Exception
+from stack_class import Stack
 
 
 @pytest.fixture
@@ -75,8 +81,8 @@ def test_empty_peek(new_stack):
 
 def test_non_empty(filled_stack):
     stack = filled_stack("book")
-    assert not stack.empty()
+    assert not stack.is_empty()
 
 
 def test_empty(new_stack):
-    assert new_stack.empty()
+    assert new_stack.is_empty()

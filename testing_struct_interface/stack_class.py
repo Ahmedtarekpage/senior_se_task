@@ -27,5 +27,9 @@ class Stack:
                 "You are Trying to get the last Element but the Stack is Empty")
         return self.__stack[-1]
 
-    def empty(self):
+    def is_empty(self):
         return len(self.__stack) == 0
+
+
+my_list = Stack()
+my_list.pop()
