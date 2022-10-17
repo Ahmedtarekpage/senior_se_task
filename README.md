@@ -16,7 +16,7 @@ all of the Requirments Will be Found in `Requirments.pdf`
     - Formating package 
     - destination package
 
-- `./testing_package :` For Testing **Task2** includeing it's sub folders
+- `./main_run_package :` For Testing **Task2** includeing it's sub folders
 
 ## Python Enviroment 
 in this project we are Using python3 and Pipenv as our Main enviroment to run it just you need to run this command 
