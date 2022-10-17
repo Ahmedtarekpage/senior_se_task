@@ -8,7 +8,7 @@
 from os import unlink
 from colorama import Fore
 from data_storage_packages.formating_data_package.json_data import JsonDataClass
-from data_storage_packages.main_run_package.main_class import MainDataClass
+from main_run_package.main_class import MainDataClass
 from data_storage_packages.destination_package.local_storage import local_Storage
 
 
@@ -52,7 +52,6 @@ def main_run():
               Fore.RED, ds.get("k3"))
         print(Fore.GREEN, "======== Data Deleted Successfully ✅ ========")
 
-        print(Fore.RED, "Error in Deleting Data")
 
 
 def unlinking(file):
