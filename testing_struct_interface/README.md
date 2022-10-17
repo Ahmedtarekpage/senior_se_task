@@ -1,4 +1,4 @@
-# testing_struct_interface
+# Testing Struct Interface
 ## Files 
 - `main_stack_testing.py :` for testing basic stack functions size(), push(), pop(), peak() and is_empty() that could be found in stack_class.py file (Mainly we are creating an instance from stack_class.py) **→ run this file as the main file to this directory**
 - `stack_class.py :` class that is including 
